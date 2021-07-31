@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+body {
+    
+    background: #111;;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+span{
+    color: rgb(235, 235, 235);
+}
+h1{
+    text-align: center;
+    color: rgb(235, 235, 235);
+    font-size: 60px;
+    font-family: 'Barlow';
+}
+h2{
+    color: rgb(235, 235, 235);
+    font-family: 'Barlow';
+
+}
+h3{
+    color: rgb(235, 235, 235);
+    font-size: 40px;
+    font-family: 'Barlow';
+}
+p{
+    text-align: justify;
+    color: rgb(191, 191, 191);
+    font-size: 35px;
+    font-family: Merriweather;
+    margin-left: 40px;
+    margin-top: 100px;
+    font-family: 'Barlow';
+    
+}
+h4{
+    color: #ffffff;
+}
+footer{
+    background: rgb(22, 22, 22);
+    text-align: center;
+}
+footer p{
+    background: rgb(22, 22, 22);
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    font-size: 25px;
+    
+}
+footer h1{
+    background: rgb(22, 22, 22);
+    position: relative;
+    left: 10px;
+    
+}
+img{
+ color: #ffffff;
+}
+.topnav {
+    background-color: rgba(0, 8, 9, 0.507);
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    margin-left: 850px;
+    
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+    background-color:rgb(2, 87, 81) ;
+    color:rgb(255, 255, 255);
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+    background-color: rgba(0, 140, 131, 0.171);
+    color: white;
+    }
+    
+
+
+    .logo{
+        margin-right: 900px;
+        border: blanchedalmond solid;
+        margin-bottom: 100px;
+        margin-top: -155px;
+    }
+    .text{
+        margin-left: 700px;
+        margin-bottom: 80px;
+    }
+   
+
+
+.info1{
+   margin-left: 700px;
+   
+}
+.imgwebpage{
+    margin-bottom: 500px;
+    
+}
+.warning {
+    color: rgba(155, 155, 155, 0);
+    background-color: rgb(28, 61, 57);
+    border: 2px dashed rgba(255, 0, 0, 0);
+  }
+  .topnav_jump {
+      background-color: rgba(0, 8, 9, 0.507);
+      overflow: hidden;
+      margin-left: 1200px;
+      position: relative;
+      right: 1070px;
+      top: 50px;
+  }
+.topnav_jump a{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+.topnav_jump a:hover {
+    background-color:rgb(2, 87, 81) ;
+    color:rgb(255, 255, 255);
+  }
+.hero{
+ width: 100%;
+
+}
+.text_a{
+    position: relative;
+    top:100px;
+}
+.about_img{
+    position: relative;
+    bottom: 340px;
+}
+
+.phone_img{
+    position: relative;
+    left: -20px;
+}
+.map_img{
+    position: relative;
+    left: 20px;
+}
+.email_img{
+    position: relative;
+    left: 20px;
+}
+.pcon{
+    position: relative;
+    right: 700px;
+}
+.h3con{
+    position: relative;
+    right: 660px;
+}
+.contact{
+    position: relative;
+    min-height: 100px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    }
+  
+   
+  
+    .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    }
+    .container .contactInfo{
+    width: 50%;
+    }
+.contact .content h2 {
+    font-size: 70px;
+    font-family: 'Barlow';
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+ .contact .content p {
+    font-size: 30px;
+    font-family: 'Barlow';
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+    .contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #ffffff;
+    margin-bottom: 700px;
+    
+    }
+    .contactForm h2{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    }
+    .contactForm span{
+    color: black;
+    }
+    .contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    }
+    .contactForm .inputBox input,
+    .contactForm .inputBox textarea
+    {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+    }
+    .contactForm .inputBox span{
+    position:absolute;
+    left: 0;
+    }
+    .contactForm .inputBox input[type="Submit"]{
+    width: 100px;
+    background: rgba(26, 26, 26, 0.753);
+    color: rgb(235, 235, 235);
+    border-bottom: 4px solid rgb(47, 47, 47);
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    }
+    .card_cont{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+        flex-wrap: wrap;
+    }
+    .card_cont .card_box{
+        position: relative;
+        width: 320px;
+        height: 400px;
+        color: rgb(255, 255, 255);
+        background: rgb(10, 10, 10);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 30px;
+        transition: 0.5s;
+    }
+    .card_cont .card_box:hover{
+      transform: translateY(-25px);
+    }
+    .card_cont .card_box::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, #00e6e6, #88ff00);
+    
+    }
+    
+    .card_cont .card_box::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(315deg, #50FB80, #85DFF8);
+        filter: blur(15px);
+    }
+    .card_cont .card_box:nth-child(2)::before,
+    .card_cont .card_box:nth-child(2)::after{
+        background: linear-gradient(315deg, #4dff03, #00d0ff);
+    }
+    .card_cont .card_box:nth-child(3)::before,
+    .card_cont .card_box:nth-child(3)::after{
+        background: linear-gradient(315deg, rgb(0, 168, 76),  rgb(0, 69, 149));
+    }
+    .card_cont .card_box:nth-child(4)::before,
+    .card_cont .card_box:nth-child(4)::after{
+        background: linear-gradient(315deg,#00d0ff,#b803ff  );
+    }
+    .card_cont .card_box:nth-child(5)::before,
+    .card_cont .card_box:nth-child(5)::after{
+        background: linear-gradient(315deg, #4dff03, #00d0ff);
+    }
+    .card_cont .card_box:nth-child(6)::before,
+    .card_cont .card_box:nth-child(6)::after{
+        background: linear-gradient(315deg, #01254A,#27F68E);
+    }
+    .card_cont .card_box span{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 6px;
+        bottom: 6px;
+        background: rgba(0,0,0,0.6);
+        z-index: 2;
+    }
+    .card_cont .card_box span::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        pointer-events: none;
+    }
+    .card_cont .card_content{
+        position: relative;
+        z-index: 10;
+        padding: 20ox 40px;
+    }
+    .card_cont .card_content h2{
+        font-size: 2em;
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+    .card_cont .card_content h2{
+        position: relative;
+        left: 80px;
+        font-size: 2em;
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+    .card_cont .card_content p{
+        position: relative;
+        right: 20px;
+        font-size: 1.1em;
+        color: #ffffff;
+        margin-bottom: 10px;
+        line-height: 1.4em;
+    }
+    .card_cont .card_content a{
+        position: relative;
+        left: 20px;
+        top: 10px;
+        display: inline-block;
+        font-size: 1.1em;
+        color: black;
+        background: #ffffff;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .Help_info{
+        border: solid 4px whitesmoke;
+        position: relative;
+        left: 40px;
+    }
+    .Help_info_hc{
+        border: solid 4px whitesmoke;
+        position: relative;
+        left: 40px;
+        height: 60px;
+    }
+    .h1_help{
+        position: relative;
+        right: 500px;
+        top: 80px;
+    }
+ 
